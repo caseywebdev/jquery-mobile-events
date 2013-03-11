@@ -1,0 +1,8 @@
+{
+  "name": "jquery-mobile-events",
+  "version": "1.4.0pre",
+  "main": "./jquery-mobile-events.js",
+  "depencencies": {
+    "jquery": "x"
+  }
+}
