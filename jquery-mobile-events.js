@@ -1,9 +1,9 @@
 /*
 * jQuery Mobile 1.4.0pre
-* Git HEAD hash: 856505571fd484976814d85280f26d139b752915 <> Date: Tue Jun 4 2013 20:00:33 UTC
+* Git HEAD hash: 856505571fd484976814d85280f26d139b752915 <> Date: Mon Jun 8 2015 19:07:47 UTC
 * http://jquerymobile.com
 *
-* Copyright 2010, 2013 jQuery Foundation, Inc. and other contributors
+* Copyright 2010, 2015 jQuery Foundation, Inc. and other contributors
 * Released under the MIT license.
 * http://jquery.org/license
 *
@@ -21,8 +21,7 @@
 		// Browser globals
 		factory( root.jQuery, root, doc );
 	}
-}( this, document, function ( jQuery, window, document, undefined ) {
-// This plugin is an experiment for abstracting away the touch and mouse
+}( this, document, function ( jQuery, window, document, undefined ) {// This plugin is an experiment for abstracting away the touch and mouse
 // events so that developers don't have to worry about which method of input
 // the device their document is loaded on supports.
 //
@@ -765,5 +764,6 @@ if ( eventCaptureSupported ) {
 	});
 
 })( jQuery, this );
+
 
 }));
